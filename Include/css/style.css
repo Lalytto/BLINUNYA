@@ -1,0 +1,187 @@
+/* ********************************************************************** */
+/* ********************* Cambio de estilo: ORIGINAL ********************* */
+/* ********************************************************************** */
+html, body {
+	background: #f1f1f1;
+	height: 100%;
+	min-height: 100%;
+}
+input, fieldset, button {
+	border-radius: 9px;
+}
+header, footer, input, legend {
+	text-align: center;
+}
+html, body, h1, ul {
+	margin: 0px;
+}
+ul {
+	padding: 0px;
+}
+textarea {
+    resize: none;
+}
+select {
+	color: black;
+}
+li {
+	display: inline;
+}
+a:hover {
+	text-decoration: none;
+}
+
+/* ********************* html5 ********************* */
+#html {
+	min-height: 100%;
+}
+#body {
+	min-height: 100%;
+}
+
+@media only screen and (min-device-width: 541px){/* ---- QUERIES ----> */
+	#html {
+		padding-bottom: 49px;
+	}
+	footer {
+		margin-top: -49px;
+	}
+}
+/* ********************* Pie de página ********************* */
+footer {
+	overflow: hidden;
+	border-top: 3px double #ccc;
+	padding: 13px;
+	color: #ccc;
+}
+
+.page-canvas {
+	margin: 69px auto;
+	padding: 13px;
+	-webkit-box-shadow:0 0 225px rgba(255,255,255,0.54);
+	box-shadow:0 0 225px rgba(255,255,255,0.54);
+	border-radius: 9px;
+		width: 484px;
+}
+
+.menuVertical {
+	position: fixed;
+	width: 300px;
+	bottom: 50px;
+	top: 40px;
+}
+
+.menuVertical ul ul {
+	display: none;
+}
+.menuVertical ul li:hover ul{
+	display: block;
+}
+
+
+.menuVertical, .wrapper {
+	border: 1px solid gray;
+	overflow-y: scroll;
+	padding: 13px;
+}
+
+.wrapper {
+	position: absolute;
+	left: 300px;
+	right: 0px;
+	top: 40px;
+	bottom: 50px;
+}
+.wrapper form {
+	width: 50%;
+	margin: 0px auto;
+}
+
+#ayuda {
+	width: 100%;
+	height: 99px;
+	border-radius: 5px;
+	text-align: justify;
+	padding: 6px;
+}
+.botoneraAdmin ul {
+	width: 100%;
+}
+.botoneraAdmin li {
+	display: block;
+}
+.botoneraAdmin a {
+	margin: 0px auto 5px;
+	display: block;
+}
+
+
+
+/* ********************************************************* */
+/* ********************* C L A S S E S ********************* */
+/* ********************************************************* */
+.oculto {
+	display: none;
+}
+.centrar {
+	margin: 0px auto;
+}
+.fontBold {
+	font-weight: bold;
+}
+.jQueryLoading {
+	display: none;
+	text-align: center;
+}
+.btnjQueryIcon {
+	position: absolute;
+	margin-top: 2px !important;
+}
+.btnjQueryText {
+	margin-left: 19px;
+}
+
+/* ********************* jTablas ********************* */
+table {
+	width:100% !important; text-align:left;
+}
+
+.editinUsuarios th, .reporteUsuario th, .setInformationInclude th, .setInformationPages th {
+	padding: 5px;
+}
+.editinUsuarios input, .reporteUsuario input, .setInformationInclude input, .setInformationPages input { 
+	width: 75%;
+}
+.editinUsuarios td, .reporteUsuario td, .setInformationInclude td, .setInformationPages td {
+	padding: 5px; border: solid #ddd; border-width: 0px 0px 1px; 
+}
+
+	.editable span{ display: block; }
+	.editable span:hover { background: url(../imagenes/png/edit.png) 90% 50% no-repeat; cursor: pointer; }
+		
+	a.enlace { display: inline-block; width: 24px; height: 24px; margin: 0px 0px 0px 5px; overflow: hidden; text-indent: -999em; vertical-align: middle; }
+	.guardar { background: url(../imagenes/png/save.png) 0 0 no-repeat; }
+	.cancelar { background: url(../imagenes/png/cancel.png) 0 0 no-repeat; }
+	.eliminar { background: url(../imagenes/png/delete.png) 0 0 no-repeat; background-size: 24px; }
+	
+	.editinUsuarios .eliminar, .reporteUsuario .eliminar { display:none; }
+	.reporteUsuario .editable span:hover { background: url(../imagenes/png/ver.png) 90% 50% no-repeat; background-size: 24px; }
+
+
+	
+	
+	
+/* ******************* Bootstrap ******************* */	
+
+.bordesError {
+	-webkit-border-top-right-radius: 4px !important;
+	-webkit-border-bottom-right-radius: 4px !important;
+	-moz-border-radius-topright: 4px !important;
+	-moz-border-radius-bottomright: 4px !important;
+	border-top-right-radius: 4px !important;
+	border-bottom-right-radius: 4px !important;
+}
+.form-control-feedback {
+	cursor: pointer;
+	pointer-events: auto;
+}
