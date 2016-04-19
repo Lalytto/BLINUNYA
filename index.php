@@ -18,6 +18,10 @@ class index {
 				if($_GET['q']=='LogIn') usuario::LogIn($_GET['formLoginUsuario'], $_GET['formLoginPass']);
 				else header('Location: ./');
 			} else usuario::inicio();
+			
+			
+			
+			
 		}
 		design::footer();
 	}
