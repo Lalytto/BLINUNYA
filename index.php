@@ -20,8 +20,8 @@ class index {
 			} else usuario::inicio();
 			
 			
-			
-			
+			// comment from vim index.php
+			//  lineas 2
 		}
 		design::footer();
 	}
